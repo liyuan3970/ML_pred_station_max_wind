@@ -89,8 +89,8 @@ data_zj_multi = a*data_zj_multi+b
 ;>---------------------------------------<
 ;           插值成站点数据
 ;>---------------------------------------<
-lon_net = fspan(120,122,20)
-lat_net = fspan(28,29.5,15)
+lon_net = fspan(119.8,122.4,16);2.6
+lat_net = fspan(27.5,29.8,15);2.3
 zi = natgrid(lon_point, lat_point, data_zj_multi, lon_net, lat_net)
 printVarSummary(zi)
 

@@ -3,11 +3,12 @@ import time
 import datetime
 import os
 from datetime import datetime, date, timedelta
-
+import paramiko
 
 
 down_time ='05:00'
 yesterday = (date.today() + timedelta(days = -1)).strftime("%Y-%m-%d")    # 昨天日期
+today =(date.today()).strftime("%Y-%m-%d") 
 year = yesterday[2:4]
 month =yesterday[5:7]
 day = yesterday[8:10]
@@ -23,15 +24,15 @@ run_time = '07:00'
 
 
 
-up_time = '15:50'
-ip = "192.168.8.135"
+up_time = '21:15'
+ip = "192.168.0.103"
 port = 22
 name ="liyuan3970"
-password = "123456"
-local_path = '/home/liyuan3970/test_demo/time/'
+password = "051219"
+local_path = '/home/liyuan3970/ML_pred_station_max_wind/progress/upload/'
 remote_path = '/home/liyuan3970/demo/'
-filename ='a.txt'
-remote_file_name='b.txt'
+filename = str(year)+str(month)+str(day)+'.nc'
+remote_file_name= 'ZJGRID.331000'+str(year)+str(month)+str(day)+'20'+'Wind03'+'.nc'
 
 def download():
     '''处理时间函数'''
@@ -75,7 +76,7 @@ def upload():
 
 
 if __name__ == '__main__':
-    print("主程序",Contents,type(Contents))
+    print("主程序",Contents,type(Contents),today)
 
     schedule.every().day.at(down_time).do(download)
     schedule.every().day.at(del_time).do(Del_line)
