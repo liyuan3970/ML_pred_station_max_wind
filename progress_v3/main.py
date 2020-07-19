@@ -15,7 +15,8 @@ today =(date.today()).strftime("%Y-%m-%d")
 year = yesterday[2:4]
 month =yesterday[5:7]
 day = yesterday[8:10]
-file_path ='io.ncl'
+# 修改ncl文件的位置
+file_path ='/home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl'
 line_num = 6 # 更改文件中第六行（时间）的
 Contents = "date = "+'"'+str(year)+str(month)+str(day)+'"'
 
@@ -59,6 +60,10 @@ def read_m4(file):
 
 
 def download():
+    
+
+
+
     '''下载必要的数据'''
     #print("Job4:每天06:00自动下载前一天20时向后预报一天的M4 10米风数据")
     #os.system('java -jar GDSJavaClient.jar 10.135.29.64 8080 samba ECMWF_HR/10_METRE_WIND_GUST_IN_THE_LAST_3_HOURS'+' '+year+month+day+'20.027'+' '+year+month+day+'20.048'+' '+'diamond')
@@ -69,18 +74,47 @@ def download():
     #time.sleep(5)
 
 
-    '''批量读取数据'''   
+    '''处理极大风速'''   
     download_path_max_wind = '/home/liyuan3970/ML_pred_station_max_wind/progress_v3/samba/ECMWF_HR/10_METRE_WIND_GUST_IN_THE_LAST_3_HOURS/'
-    file_day = search(download_path_max_wind,year+month+day)
-    file_day.sort()
-    file_zj = []
-    for file in file_day:
-        d_zj=read_m4(file)
-        file_zj.append(d_zj)
-    print("search is ok")
-    data =xr.concat(file_zj,dim='time')
-    data.to_netcdf("fytest.nc")
+    save_max_path = '/home/liyuan3970/ML_pred_station_max_wind/progress_v3/nc_data/max/'
+    file_day_max = search(download_path_max_wind,year+month+day)
+    file_day_max.sort()
+    print(file_day_max)
+    file_zj_max = []
+    for file in file_day_max:
+        d_zj_max=read_m4(file)
+        file_zj_max.append(d_zj_max)
+    print("search max is ok")
+    data_max =xr.concat(file_zj_max,dim='time')
+    data_max.to_netcdf(save_max_path+str(year)+str(month)+str(day)+"_fy.nc")
 
+
+    '''处理U分量'''   
+    download_path_u_wind = '/home/liyuan3970/ML_pred_station_max_wind/progress_v3/samba/ECMWF_HR/UGRD_10M/'
+    save_u_path = '/home/liyuan3970/ML_pred_station_max_wind/progress_v3/nc_data/u/'
+    file_day_u = search(download_path_u_wind,year+month+day)
+    file_day_u.sort()
+    file_zj_u = []
+    for file in file_day_u:
+        d_zj_u=read_m4(file)
+        file_zj_u.append(d_zj_u)
+    print("search u is ok")
+    data_u =xr.concat(file_zj_u,dim='time')
+    data_u.to_netcdf(save_u_path+str(year)+str(month)+str(day)+"_u.nc")
+
+
+    '''处理V分量'''   
+    download_path_v_wind = '/home/liyuan3970/ML_pred_station_max_wind/progress_v3/samba/ECMWF_HR/UGRD_10M/'
+    save_v_path = '/home/liyuan3970/ML_pred_station_max_wind/progress_v3/nc_data/v/'
+    file_day_v = search(download_path_v_wind,year+month+day)
+    file_day_v.sort()
+    file_zj_v = []
+    for file in file_day_v:
+        d_zj_v=read_m4(file)
+        file_zj_v.append(d_zj_v)
+    print("search v is ok")
+    data_v =xr.concat(file_zj_v,dim='time')
+    data_v.to_netcdf(save_v_path+str(year)+str(month)+str(day)+"_v.nc")
 
 
     '''更改ncl文件的时间'''
@@ -90,7 +124,7 @@ def download():
     with open(file_path,"w") as f:
         f.write("".join(res))  #将 res 转换为 字符串重写写入到文本
         f.close()
-    time.sleep(20)
+    time.sleep(5)
     #return
     '''运行ncl文件'''
     #os.system("ncl io.ncl")
