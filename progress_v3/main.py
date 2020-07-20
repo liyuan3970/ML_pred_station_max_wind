@@ -15,12 +15,14 @@ today =(date.today()).strftime("%Y-%m-%d")
 year = yesterday[2:4]
 month =yesterday[5:7]
 day = yesterday[8:10]
+day_now = today[8:10]
 # 修改ncl文件的位置
 file_path ='/home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl'
 line_num = 6 # 更改文件中第六行（时间）的
 Contents = "date = "+'"'+str(year)+str(month)+str(day)+'"'
 
-
+line_num2 = 7 # 更改文件中第六行（时间）的
+Contents2 = "today = "+'"'+str(year)+str(month)+str(day_now)+'"'
 
 
 
@@ -66,11 +68,11 @@ def download():
 
     '''下载必要的数据'''
     #print("Job4:每天06:00自动下载前一天20时向后预报一天的M4 10米风数据")
-    #os.system('java -jar GDSJavaClient.jar 10.135.29.64 8080 samba ECMWF_HR/10_METRE_WIND_GUST_IN_THE_LAST_3_HOURS'+' '+year+month+day+'20.027'+' '+year+month+day+'20.048'+' '+'diamond')
-    #time.sleep(5)
-    #os.system('java -jar GDSJavaClient.jar 10.135.29.64 8080 samba ECMWF_HR/UGRD_10M'+' '+year+month+day+'20.027'+' '+year+month+day+'20.048'+' '+'diamond')
-    #time.sleep(5)
-    #os.system('java -jar GDSJavaClient.jar 10.135.29.64 8080 samba ECMWF_HR/VGRD_10M'+' '+year+month+day+'20.027'+' '+year+month+day+'20.048'+' '+'diamond')
+    os.system('java -jar GDSJavaClient.jar 10.135.29.64 8080 samba ECMWF_HR/10_METRE_WIND_GUST_IN_THE_LAST_3_HOURS'+' '+year+month+day+'20.027'+' '+year+month+day+'20.048'+' '+'diamond')
+    time.sleep(5)
+    os.system('java -jar GDSJavaClient.jar 10.135.29.64 8080 samba ECMWF_HR/UGRD_10M'+' '+year+month+day+'20.027'+' '+year+month+day+'20.048'+' '+'diamond')
+    time.sleep(5)
+    os.system('java -jar GDSJavaClient.jar 10.135.29.64 8080 samba ECMWF_HR/VGRD_10M'+' '+year+month+day+'20.027'+' '+year+month+day+'20.048'+' '+'diamond')
     #time.sleep(5)
 
 
@@ -121,6 +123,14 @@ def download():
     with open(file_path,"r") as f:
         res = f.readlines() #res 为列表
     res[line_num-1]=(Contents+"\n")  #删除行，因为索引是从 0 开始的，所以需要  -1
+    with open(file_path,"w") as f:
+        f.write("".join(res))  #将 res 转换为 字符串重写写入到文本
+        f.close()
+    time.sleep(5)
+
+    with open(file_path,"r") as f:
+        res = f.readlines() #res 为列表
+    res[line_num2-1]=(Contents2+"\n")  #删除行，因为索引是从 0 开始的，所以需要  -1
     with open(file_path,"w") as f:
         f.write("".join(res))  #将 res 转换为 字符串重写写入到文本
         f.close()

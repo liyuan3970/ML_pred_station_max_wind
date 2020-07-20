@@ -3,7 +3,8 @@ begin
 ;                           读取数据(读取当天的数据，并计算uv风量)
 ;>-----------------------------------------------------------------------------<
 filepath = "/home/liyuan3970/ML_pred_station_max_wind/progress_v3/nc_data/"
-date = "200716"
+date = "200719"
+today = "200720"
 fy = addfile(filepath+"max/"+date+"_fy.nc", "r")
 wind_max =fy->data
 wind_max = doubletofloat(wind_max)
@@ -35,8 +36,8 @@ data_one_lat = ndtooned(data_lat)
 ;           插值成站点数据,只需额外添加站点经纬度即可
 ;>----------------------------------------------------------<
 
-lat_point=(/28.52,28.52,29.07,29.09,28.22,28.37,28.08,28.49,28.05/)
-lon_point=(/121.12,120.43,121.23,120.58,121.22,121.25,121.14,120.56,121.31/)
+lat_point=(/28.52,28.52,29.07,29.09,28.22,28.37,28.08,28.49,28.05,28.4,28.37,28.34,28.34,28.28,28.51,29.03,29.04,29.00,28.56/)
+lon_point=(/121.12,120.43,121.23,120.58,121.22,121.25,121.14,120.56,121.31,121.17,121.10,120.57,121.21,121.32,121.27,120.48,120.9,121.19,121.35/)
 
 data_zj_one = reshape(wind_max, (/ntime,nlat*nlon/))
 
@@ -111,32 +112,58 @@ net_grid_u  = transpose(u_net)
 
 time = fspan(1,ntime,ntime)
 time!0 = "time"
+time@long_name  = "Time"
+day = stringtocharacter(today)
 
+time@units      = "hours since 20"+day(0:1)+"-"+day(2:3)+"-"+day(4:5)+" "+"20:00:00"
 
 lon_net!0          = "lon"
-lon_net@long_name  = "lon"
+lon_net@long_name  = "Longitude"
 lon_net@units      = "degrees-east"
 lon_net&lon        = lon_net
+lon_net@add_offset = "0.f"
+lon_net@scale_factor = "1.f"
+
 lat_net!0          = "lat"
-lat_net@long_name  = "lat"
+lat_net@long_name  = "Latitude"
 lat_net@units      = "degrees_north"
 lat_net&lat        = lat_net
+lat_net@add_offset = "0.f"
+lat_net@scale_factor = "1.f"
 net_grid_u!1 = "lon"
 net_grid_u!0 = "lat"
 net_grid_u!2 = "time"
 net_grid_u&time=time
 net_grid_u&lon= lon_net
 net_grid_u&lat= lat_net
+net_grid_u@units      = "m/s"
+net_grid_u@long_name      = "Max wind above 10m ground"
 printVarSummary(net_grid_u)
 
 net_grid_v  = transpose(v_net)
 copy_VarCoords(net_grid_u, net_grid_v)
+net_grid_v@units      = "m/s"
+net_grid_v@long_name      = "Max wind above 10m ground"
 printVarSummary(net_grid_v)
+
+;>---------------------------------------<
+;           处理-----24小时极大风
+;>---------------------------------------<
+u3 = net_grid_u({time|:},{lat|:},{lon|:})
+v3 = net_grid_v({time|:},{lat|:},{lon|:})
+
+u24 = dim_max_n(u3, 0)
+v24 = dim_max_n(v3, 0)
+copy_VarCoords(u3(0,:,:), u24)
+copy_VarCoords(v3(0,:,:), v24)
+printVarSummary(u24)
 ;>---------------------------------------<
 ;           输出成nc数据
 ;>---------------------------------------<
 f = addfile("/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/"+date+".nc", "c")
 f->u10 = net_grid_u({time|:},{lat|:},{lon|:})
 f->v10 = net_grid_v({time|:},{lat|:},{lon|:})
+
+
 
 end 

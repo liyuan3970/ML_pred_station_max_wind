@@ -1,0 +1,1641 @@
+/bin/sh: 1: ncl: not found
+/bin/sh: 1: ncl: not found
+/bin/sh: 1: ncl: not found
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 19 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+fatal:syntax error: doubletofloat is a function not a procedure; return value must be referenced
+fatal:error at line 20 in file /home/liyuan3970/ML_pred_station_max_wind/progress_v3/io_new.ncl
+
+
+Variable: wind_max
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: data_zj_multi
+Type: float
+Total Size: 608 bytes
+            152 values
+Number of Dimensions: 2
+Dimensions and sizes:	[8] x [19]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: uwind
+Type: double
+Total Size: 172032 bytes
+            21504 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 8] x [lat | 48] x [lon | 56]
+Coordinates: 
+            time: [0..21]
+            lat: [  26..31.875]
+            lon: [ 117..123.875]
+Number Of Attributes: 3
+  _FillValue :	 nan
+  units :	
+  coordinates :	forecast_period forecast_reference_time
+
+Variable: uv
+Type: double
+Total Size: 2432 bytes
+            304 values
+Number of Dimensions: 3
+Dimensions and sizes:	[uv | 2] x [8] x [19]
+Coordinates: 
+Number Of Attributes: 3
+  _FillValue :	9.969209968386869e+36
+  _FillValue_original :	9.96921e+36
+  long_name :	zonal [0] and meridional [1] wind components
+
+Variable: u_net
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[8] x [16] x [15]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_u
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: net_grid_v
+Type: double
+Total Size: 15360 bytes
+            1920 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lat | 15] x [lon | 16] x [time | 8]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+            time: [ 1.. 8]
+Number Of Attributes: 3
+  long_name :	Max wind above 10m ground
+  units :	m/s
+  _FillValue :	9.969209968386869e+36
+
+Variable: u24
+Type: double
+Total Size: 1920 bytes
+            240 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat | 15] x [lon | 16]
+Coordinates: 
+            lat: [27.5..29.8]
+            lon: [119.8..122.4]
+Number Of Attributes: 1
+  _FillValue :	9.969209968386869e+36
+fatal:Could not create (/home/liyuan3970/ML_pred_station_max_wind/progress_v3/upload/200719.nc)
+
