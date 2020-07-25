@@ -101,8 +101,8 @@ printVarSummary(uv)
 ;>---------------------------------------<
 ;           插值成网格数据
 ;>---------------------------------------<
-lon_net = fspan(119.8,122.4,16);2.6
-lat_net = fspan(27.5,29.8,15);2.3
+lon_net = fspan(119.8,122.4,52);2.6
+lat_net = fspan(27.5,29.8,46);2.3
 u_net = natgrid(lon_point, lat_point, uv(0,:,:), lon_net, lat_net)
 v_net = natgrid(lon_point, lat_point, uv(1,:,:), lon_net, lat_net)
 printVarSummary(u_net)
